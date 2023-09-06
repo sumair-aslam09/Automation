@@ -1,0 +1,7 @@
+---
+- name: Say Hello
+  hosts: your_target_hosts  # Replace with your target host or group
+  tasks:
+    - name: Display Hello, World!
+      debug:
+        msg: "Hello, World!"
