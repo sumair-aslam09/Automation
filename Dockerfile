@@ -9,7 +9,7 @@ RUN apt update
 RUN apt install -y tzdata
 # Install necessary packages
 RUN apt-get update -y && \
-    apt-get install python -y 
+    apt-get install python3.9 -y 
     #python 
     #python3-pip 
     #unzip \
