@@ -10,7 +10,7 @@ ANSIBLE_DIR="/ansible/"
 # Execute the Python script
 echo "Executing Python script..."
 #py "$PYTHON_SCRIPT"
-python /python/generate.py
+python3 /python/generate.py
 if [ $? -ne 0 ]; then
   echo "Python script execution failed."
   #exit 1
