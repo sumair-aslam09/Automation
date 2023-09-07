@@ -40,4 +40,5 @@ COPY infra-provision.sh /root/
 WORKDIR /root
 
 # Define a command to execute after container creation
-CMD ["/root/infra-provision.sh"]
+#CMD ["/root/infra-provision.sh"]
+ENTRYPOINT ["/root/infra-provision.sh"]
